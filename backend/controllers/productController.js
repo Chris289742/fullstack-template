@@ -1,5 +1,5 @@
 import { v2 as cloudinary } from "cloudinary";
-import productModel from "../models/productModel.js";
+// import productModel from "../models/productModel.js";
 const addProduct = async (req, res) => {
   try {
     const {
@@ -28,7 +28,7 @@ const addProduct = async (req, res) => {
     //     filename: 'about_img.png',
     //     path: '/var/folders/_x/96km780n5t7ghfxmvq245l4c0000gn/T/about_img.png',
     //     size: 1201915
-    //   }
+    //  }
     const images = [image1, image2, image3, image4].filter(
       (item) => item != undefined
     );

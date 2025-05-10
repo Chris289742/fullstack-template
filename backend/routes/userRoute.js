@@ -7,6 +7,8 @@ import {
 
 const userRouter = express.Router();
 
+// Define routes
+
 userRouter.post("/register", registerUser);
 userRouter.post("/login", loginUser);
 // userRouter.post("/admin", adminLogin);
